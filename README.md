@@ -5,3 +5,14 @@ SharpDX Framework is an open-source XNA like based framework based on SharpDX.Di
 ## Licensing
  
 MIT
+
+## Resources
+
+* [Downloads](https://github.com/insma/SharpDX-Framework/releases)
+* [Documentation](https://github.com/insma/SharpDX-Framework/wiki)
+
+## Related projects
+
+* [SharpDX](https://github.com/sharpdx/SharpDX)
+* [ShaprDX Toolkit](https://github.com/sharpdx/Toolkit)
+* [ShaprDX Game Studio](https://github.com/insma/SharpDX-Game-Studio)
