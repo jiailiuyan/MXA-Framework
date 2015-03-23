@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0847443d-55eb-440d-b6ff-d5d005312d6c}</ProjectGuid>
+    <ProjectGuid>{0847443D-55EB-440D-B6FF-D5D005312D6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Insma.Mxa.Framework.Game</RootNamespace>
@@ -35,9 +35,37 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\Framework.GamerServices\Insma.Mxa.Framework.GamerServices.csproj">
+      <Project>{ccde9ed0-7cca-4d77-bd31-1873113cb953}</Project>
+      <Name>Insma.Mxa.Framework.GamerServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework.Graphics\Insma.Mxa.Framework.Graphics.csproj">
+      <Project>{9bdfac16-cdb6-40df-bf55-add0f305a0d7}</Project>
+      <Name>Insma.Mxa.Framework.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Insma.Mxa.Framework.csproj">
+      <Project>{ed6c838f-b040-4f7b-812a-9448d07340e5}</Project>
+      <Name>Insma.Mxa.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DrawableGameComponent.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameComponent.cs" />
+    <Compile Include="GameComponentCollection.cs" />
+    <Compile Include="GameComponentCollectionEventArgs.cs" />
+    <Compile Include="GamerServices\GamerServicesComponent.cs" />
+    <Compile Include="GameServiceContainer.cs" />
+    <Compile Include="GameTime.cs" />
+    <Compile Include="GameWindow.cs" />
+    <Compile Include="GraphicsDeviceInformation.cs" />
+    <Compile Include="GraphicsDeviceManager.cs" />
+    <Compile Include="IDrawable.cs" />
+    <Compile Include="IGameComponent.cs" />
+    <Compile Include="IGraphicsDeviceManager.cs" />
+    <Compile Include="IUpdateable.cs" />
+    <Compile Include="LaunchParameters.cs" />
+    <Compile Include="PreparingDeviceSettingsEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -48,5 +76,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>
