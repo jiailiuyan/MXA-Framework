@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework {
 	public enum ContainmentType {
+		Disjoint = 0,
+		Contains = 1,
+		Intersects = 2,
 	}
 }

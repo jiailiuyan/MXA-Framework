@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Input {
 	public enum KeyState {
+		Up = 0,
+		Down = 1,
 	}
 }

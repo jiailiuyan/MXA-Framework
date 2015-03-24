@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Audio {
 	public enum AudioChannels {
+		Mono = 1,
+		Stereo = 2,
 	}
 }

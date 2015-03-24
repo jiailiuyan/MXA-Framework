@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework {
 	public enum CurveTangent {
+		Flat = 0,
+		Linear = 1,
+		Smooth = 2,
 	}
 }

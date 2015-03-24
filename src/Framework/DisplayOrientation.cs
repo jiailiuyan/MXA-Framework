@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework {
 	public enum DisplayOrientation {
+		Default = 0,
+		LandscapeLeft = 1,
+		LandscapeRight = 2,
+		Portrait = 4,
 	}
 }
