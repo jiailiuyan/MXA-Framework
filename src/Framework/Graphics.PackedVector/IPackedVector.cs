@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Insma.Mxa.Framework.Graphics.PackedVector {
 	public interface IPackedVector {
+		void PackFromVector4(Vector4 vector);
+		Vector4 ToVector4( );
 	}
 }
