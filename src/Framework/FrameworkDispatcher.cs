@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework {
 	public static class FrameworkDispatcher {
+		public static void Update( ) { throw new NotImplementedException( ); }
 	}
 }
