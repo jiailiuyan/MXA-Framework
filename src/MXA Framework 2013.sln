@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insma.Mxa.Framework.Storage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insma.Mxa.Framework.Video", "Framework.Video\Insma.Mxa.Framework.Video.csproj", "{92912C38-0B74-4F4A-A54A-94DC70E7CB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insma.Mxa.Framework.Xact", "Insma.Mxa.Framework.Xact\Insma.Mxa.Framework.Xact.csproj", "{6D767C87-21D2-40A3-BF83-BB58A62D8FC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insma.Mxa.Framework.Xact", "Framework.Xact\Insma.Mxa.Framework.Xact.csproj", "{6D767C87-21D2-40A3-BF83-BB58A62D8FC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
