@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Content {
 	[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
-	class ContentSerializerTypeVersionAttribute {
+	public sealed class ContentSerializerTypeVersionAttribute : Attribute {
 	}
 }
