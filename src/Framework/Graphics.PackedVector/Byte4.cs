@@ -12,7 +12,7 @@ namespace Insma.Mxa.Framework.Graphics.PackedVector {
 		public override bool Equals(object obj) { throw new NotImplementedException( ); }
 		public override int GetHashCode( ) { throw new NotImplementedException( ); }
 		public override string ToString( ) { throw new NotImplementedException( ); }
-		public Vector3 ToVector4( ) { throw new NotImplementedException( ); }
+		public Vector4 ToVector4( ) { throw new NotImplementedException( ); }
 		public static bool operator !=(Byte4 a, Byte4 b) { throw new NotImplementedException( ); }
 		public static bool operator ==(Byte4 a, Byte4 b) { throw new NotImplementedException( ); }
 
