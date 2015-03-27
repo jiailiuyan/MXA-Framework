@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
-	class GraphicsDeviceStatus {
+	public enum GraphicsDeviceStatus {
+		Normal = 0,
+		Lost = 1,
+		NotReset = 2,
 	}
 }

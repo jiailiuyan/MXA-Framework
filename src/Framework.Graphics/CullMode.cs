@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum CullMode {
+		None = 0,
+		CullClockwiseFace = 1,
+		CullCounterClockwiseFace = 2,
 	}
 }

@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum SetDataOptions {
+		None = 0,
+		Discard = 1,
+		NoOverwrite = 2,
 	}
 }

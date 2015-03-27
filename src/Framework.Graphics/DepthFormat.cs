@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum DepthFormat {
+		None = 0,
+		Depth16 = 1,
+		Depth24 = 2,
+		Depth24Stencil8 = 3,
 	}
 }

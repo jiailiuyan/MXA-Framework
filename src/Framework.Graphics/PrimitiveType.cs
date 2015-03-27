@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum PrimitiveType {
+		TriangleList = 0,
+		TriangleStrip = 1,
+		LineList = 2,
+		LineStrip = 3,
 	}
 }

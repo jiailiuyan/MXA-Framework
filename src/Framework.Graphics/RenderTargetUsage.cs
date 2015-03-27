@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum RenderTargetUsage {
+		DiscardContents = 0,
+		PreserveContents = 1,
+		PlatformContents = 2,
 	}
 }

@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Graphics {
 	public enum ClearOptions {
+		Target = 1,
+		DepthBuffer = 2,
+		Stencil = 4,
 	}
 }
