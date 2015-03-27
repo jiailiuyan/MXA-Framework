@@ -35,6 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\Framework\Insma.Mxa.Framework.csproj">
+      <Project>{ed6c838f-b040-4f7b-812a-9448d07340e5}</Project>
+      <Name>Insma.Mxa.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlphaTestEffect.cs" />
