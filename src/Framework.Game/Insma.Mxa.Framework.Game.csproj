@@ -8,7 +8,7 @@
     <ProjectGuid>{0847443D-55EB-440D-B6FF-D5D005312D6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Insma.Mxa.Framework.Game</RootNamespace>
+    <RootNamespace>Insma.Mxa.Framework</RootNamespace>
     <AssemblyName>Insma.Mxa.Framework.Game</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
