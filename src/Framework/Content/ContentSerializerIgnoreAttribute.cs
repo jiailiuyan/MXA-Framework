@@ -7,5 +7,6 @@ using System.Threading.Tasks;
 namespace Insma.Mxa.Framework.Content {
 	[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 	public sealed class ContentSerializerIgnoreAttribute : Attribute {
+		public ContentSerializerIgnoreAttribute( ) { throw new NotImplementedException( ); }
 	}
 }
