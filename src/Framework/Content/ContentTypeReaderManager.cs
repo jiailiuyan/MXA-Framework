@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace Insma.Mxa.Framework.Content {
 	public sealed class ContentTypeReaderManager {
+		public ContentTypeReader GetTypeReader(Type targetType) { throw new NotImplementedException( ); }
 	}
 }
